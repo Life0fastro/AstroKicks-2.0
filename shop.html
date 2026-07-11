@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/nike-tick.svg">
+    <title>Shop | AstroKicks</title>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-logo">
+    <a href="index.html">
+      <img src="assets/nike-tick.svg" alt="AstroKicks logo" class="logo-icon">
+      <span class="logo-text">AstroKicks</span>
+    </a>
+  </div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="nav-cart">
+    <a href="cart.html" class="cart-link">
+      <img src="assets/cart-icon.svg" alt="Cart" class="cart-icon">
+      <span class="cart-count">0</span>
+    </a>
+  </div>
+</nav>
+
+<section class="shop-header">
+  <h1 class="shop-title">Shop All</h1>
+
+  <div class="shop-controls">
+    <select id="category-filter" class="filter-select">
+      <option value="all">All Categories</option>
+      <option value="basketball">Basketball</option>
+      <option value="lifestyle">Lifestyle</option>
+      <option value="skate">Skate</option>
+    </select>
+
+    <select id="sort-select" class="filter-select">
+      <option value="default">Sort By</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+      <option value="name-asc">Name: A-Z</option>
+    </select>
+  </div>
+</section>
+
+<section class="shop-grid" id="product-grid-container">
+  <!-- Product cards will be injected here by JS -->
+</section>
+
+<footer class="site-footer">
+  <p>&copy; 2026 AstroKicks. All rights reserved.</p>
+  <p>Dakalo Mukwevho &nbsp;|&nbsp; <a href="mailto:chroniclesofastro@gmail.com">chroniclesofastro@gmail.com</a></p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/products.js"></script>
+<script src="js/shop.js"></script>
+
+</body>
+</html
